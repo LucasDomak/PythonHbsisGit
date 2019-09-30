@@ -3,8 +3,10 @@ print('='*60)
 
 salario = float(input('{0}Digite o salario liquido: '.format(' '*5)))
 
+# Imprimindo salario 
 
 print('{}O salario liquido é: R${:7.2f}'.format( ' '*5 ,salario))
+
 print('{}Gastos E: R${:7.2f}'.format( ' '*5 ,salario*0.5))
 print('{}Investimentos LP: R${:7.2f}'.format( ' '*5 ,salario*0.2))
 print('{}Inverstimentos CP: R${:7.2f}'.format( ' '*5 ,salario*0.1))
