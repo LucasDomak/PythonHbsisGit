@@ -8,17 +8,35 @@
     </head>
     <body>
         <div class="Titulo">
-            <h1>Novo aluno</h1>
+            <h1>Acesse sua conta!</h1>
         </div>
         <form action="/salvar" method="POST">
-
-            <label for="">Nome: </label><input type="text" name ="nome" placeholder="Lucas Alfredo"><br>
-            <label for="">Sobrenome: </label><input type="text" name="sobrenome" placeholder="da Silva"><br>
-            <label for="">Telefone: </label><input type="password" name="telefone" placeholder="+5547999705773"><br>
+            <div class="label1">
+                <label for="">Login: </label><input type="text" name ="nome" placeholder="Lucas Alfredo"><br>
+            </div>
+            <!-- <div class="label2">
+           <!  <label for="">Sobrenome: </label><input type="text" name="sobrenome" placeholder="da Silva"><br>
+            </div> --> 
+            <div class="label3">
+            <label for="">Senha: </label><input type="password" name="telefone" id="myInput"><br>
+            </div>
             <hr/>
         <div class="salvando">    
             <input type="submit" value="Salvar">
-        </div>    
+        </div>
+        <div class="senha">
+            <label> Mostrar Senha</label><input type="checkbox" onclick="myFunction()">
+        </div>
+        <script>
+            function myFunction() {
+                var x = document.getElementById("myInput");
+                if (x.type === "password") {
+                 x.type = "text";
+                } else {
+                    x.type = "password";
+                }
+            }
+        </script>
         </form>
 
     </body>
