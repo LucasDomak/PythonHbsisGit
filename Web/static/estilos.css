@@ -1,0 +1,94 @@
+body {    
+    background-image:url("lindo-por-do-sol-wallpaper-1440x900-1.jpg");
+    
+}
+
+.cabecalho,.novo{
+    width: 60%;
+    margin: auto;
+    text-align: center;
+}
+
+table{
+    width: 60%;
+    margin: 2em auto;
+    border-collapse: collapse;
+}
+
+.novo a{
+    text-transform: uppercase;
+    color: rgb(185, 32, 255);
+    font: 0.875;
+    background: white;
+    border: solid 1px;
+    margin-bottom: 2em;
+    padding: 0.5em 1em;
+    text-decoration: none;
+}
+
+.novo a:hover{
+    color: white;
+    background: rgb(185, 32, 255);
+}
+
+thead{
+    background: #000000;
+    color: #cccccc;
+}
+
+th{
+    height: 2em;
+    text-align: left;
+    padding: 0.5em 0 0 1em;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+td{
+    color: rgb(0, 0, 0);
+    height: 1.5em;
+    padding: 0.5em 1em;
+    border: 1px solid #000000;
+}
+
+tr:hover{
+    background: rgb(120, 4, 187);
+}
+
+/* td:hover{
+    background: rgb(228, 184, 184);
+} */ 
+
+tbody tr:hover{
+    background: cornflowerblue;
+}
+
+label{
+    padding: 0.5em  0 0 1em;
+    margin: auto;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace
+}
+
+input{
+    margin: 0.5em;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serifs
+}
+
+form{
+    padding: 0.5em;
+    text-align: center;
+}
+
+.Titulo{
+    color: rgba(0, 0, 0, 0.87);
+    padding: 0.5em;
+    text-align: center;
+}
+
+.salvando input:hover{
+    color: rgba(21, 35, 226, 0.87);
+    background: rgb(252, 193, 67)
+}
+

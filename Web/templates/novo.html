@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+   
+        <title>Novo</title>
+        <link rel="stylesheet" href="../static/estilos.css">
+    </head>
+    <body>
+        <div class="Titulo">
+            <h1>Novo aluno</h1>
+        </div>
+        <form action="/salvar" method="POST">
+
+            <label for="">Nome: </label><input type="text" name ="nome" placeholder="Lucas Alfredo"><br>
+            <label for="">Sobrenome: </label><input type="text" name="sobrenome" placeholder="da Silva"><br>
+            <label for="">Telefone: </label><input type="password" name="telefone" placeholder="+5547999705773"><br>
+            <hr/>
+        <div class="salvando">    
+            <input type="submit" value="Salvar">
+        </div>    
+        </form>
+
+    </body>
+</html>
