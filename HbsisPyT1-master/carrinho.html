@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lojinha</title>
+    <link rel="stylesheet" href="carrinho.css">
+</head>
+<body>
+    <div class="container">
+        <div class="camisa" id="modelo1">
+            <h3>Camisa polo estilosa</h3>
+            <span class="preco">R$ 68,55</span><br>
+            <img src="img/c1.png" alt="camisa polo"><br>
+            <input type="number" id="qtde_m1" placeholder="qtde">
+            <button onclick="comprar('m1')">Comprar</button>
+        </div>
+        <div class="camisa" id="modelo2">
+            <h3>Camisa social estilosa</h3>
+            <span class="preco">R$ 199,00</span><br>
+            <img src="img/c2.png" alt="camisa social"><br>
+            <input type="number" id="qtde_m2" placeholder="qtde">
+            <button onclick="comprar('m2')">Comprar</button>
+        </div>
+        <div class="camisa" id="modelo3">
+            <h3>Camisa social estilosa</h3>
+            <span class="preco">R$ 168,55</span><br>
+            <img src="img/c3.png" alt="camisa social"><br>
+            <input type="number" id="qtde_m3" placeholder="qtde">
+            <button onclick="comprar('m3')">Comprar</button>
+        </div>
+    </div>
+    <div class="totalizador">
+        <span id="total_atual">Total: R$ 0,00</span><br>
+        <button>Finalizar compra</button>
+    </div>    
+    <script src="carrinho.js"></script>
+</body>
+</html>

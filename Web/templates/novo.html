@@ -12,13 +12,13 @@
         </div>
         <form action="/salvar" method="POST">
             <div class="label1">
-                <label for="">Login: </label><input type="text" name ="nome" placeholder="Lucas Alfredo"><br>
+                <label for="">Login: </label><input type="text" name ="nome"><br>
             </div>
-            <!-- <div class="label2">
-           <!  <label for="">Sobrenome: </label><input type="text" name="sobrenome" placeholder="da Silva"><br>
-            </div> --> 
+            <div class="label2">
+                <label for="">Senha: </label><input type="password" name="sobrenome" id="mySenha"><br>
+            </div> 
             <div class="label3">
-            <label for="">Senha: </label><input type="password" name="telefone" id="myInput"><br>
+            <label for="">Confirme a Senha: </label><input type="password" name="telefone" id="myInput"><br>
             </div>
             <hr/>
         <div class="salvando">    
@@ -29,7 +29,13 @@
         </div>
         <script>
             function myFunction() {
-                var x = document.getElementById("myInput");
+                var x = document.getElementById("mySenha");
+                var y = document.getElementById("myInput");
+                if (y.type === "password") {
+                 y.type = "text";
+                } else {
+                    y.type = "password";
+                }
                 if (x.type === "password") {
                  x.type = "text";
                 } else {

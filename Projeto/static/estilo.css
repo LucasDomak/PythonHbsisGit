@@ -1,0 +1,11 @@
+
+
+.cabecalho{
+    width: 100%;
+    background: #000;
+    height: 4em;
+}
+.cabecalho img{
+    margin: 6px 0 0 15px;
+    width: 5.5em;
+}
