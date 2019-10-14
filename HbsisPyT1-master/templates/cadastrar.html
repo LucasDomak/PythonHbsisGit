@@ -1,7 +1,7 @@
 {% extends "tbl.html" %}
 {% block conteudo %}
     <div id="Cadastrar">
-        <h1>Cadastrar Cerveja</h1>
+        <h1>Cadastrar Investimento</h1>
 
 
         <form action="/salvar" method="POST">
@@ -22,13 +22,13 @@
                 <label for="">Preço: </label>
             </div>
 
-            <input type="text" name="preco">
+            <input type="text" name="valor">
 
             <div class="labels">
-                <label for="">Validade:</label> 
+                <label for="">Rendimento do Investimento:</label> 
             </div>
 
-            <input type="text" name="validade"><p>
+            <input type="text" name="rendimento_investimento"><p><br>
 
             <input type="submit" value="salvar">
 

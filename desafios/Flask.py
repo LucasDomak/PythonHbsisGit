@@ -12,5 +12,3 @@ app = Flask(__name__)
 def inicio():
     return render_template('index.html', nome=pagina_nome, lista=lista_alunos)
 app.run()
-
-

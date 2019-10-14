@@ -1,6 +1,6 @@
-class Cerveja:
+class Invest:
     def __init__(self, n, t , p, v):
         self.nome = n
         self.tipo = t
-        self.preco = p
-        self.validade = v
+        self.valor = p
+        self.rendimento_investimento = v

@@ -32,7 +32,7 @@ def salvar():
     valor = request.form['valor']
     rendimento_investimento = request.form['rendimento_investimento']
 
-    novo_investimento = Invest(nome, tipo, valor, rendimento_investimento)
+    novo_investimento = Invest(nome, tipo, valor,rendimento_investimento)
     lista_investimentos.append(novo_investimento)
 
     return redirect('/listar')
